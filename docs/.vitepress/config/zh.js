@@ -39,10 +39,9 @@ export const zh = {
           collapsed: false,
           items: [
             { text: '章节概览', link: '/whitepaper/chapter4/' },
-            { text: '4.1 区域共识网络概述', link: '/whitepaper/chapter4/section1' },
-            { text: '4.2 星盘结构与维度共识', link: '/whitepaper/chapter4/section2' },
-            { text: '4.3 价值共识算法与星图', link: '/whitepaper/chapter4/section3' },
-            { text: '4.4 网络哲学与技术实现', link: '/whitepaper/chapter4/section4' }
+            { text: '4.1 星盘结构与维度共识', link: '/whitepaper/chapter4/section1' },
+            { text: '4.2 价值共识算法与星图', link: '/whitepaper/chapter4/section2' },
+            { text: '4.3 网络哲学与技术实践', link: '/whitepaper/chapter4/section3' }
           ]
         },
         {
