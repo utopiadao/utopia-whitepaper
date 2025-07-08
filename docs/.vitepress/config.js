@@ -32,8 +32,7 @@ export default defineConfig({
     
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/utopia-project' },
-      { icon: 'twitter', link: 'https://twitter.com/utopia' }
+      { icon: 'github', link: 'https://github.com/utopiadao/' }
     ],
 
     // 搜索
