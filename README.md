@@ -1,6 +1,6 @@
 # 乌托邦白皮书
 
-![UTOPIA](./images/logo2.svg)
+![UTOPIA](./logo/logo2.svg)
 
 > 没有什么是永恒的，唯有思想长存。  
 > Nothing is eternal, only ideas last forever.
