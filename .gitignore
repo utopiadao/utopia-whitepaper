@@ -24,3 +24,16 @@ Thumbs.db
 *.pdf
 *.epub
 *.mobi
+
+# Backup files
+*_backup_*
+*.backup
+*.bak
+
+# Test files
+test-*.md
+*-test.md
+
+# Temporary files
+*.tmp
+.temp/
