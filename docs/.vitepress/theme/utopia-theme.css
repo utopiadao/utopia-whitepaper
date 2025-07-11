@@ -87,10 +87,8 @@ html {
   padding-top: 64px;
 }
 
-/* 在text后插入描述文字 */
-.VPHero .text::after {
-  content: "乌托邦的凤凰重启、区域共识和繁荣节点三大机制如何创造可持续的价值循环？这份革命性文档将为您揭晓答案，并将深刻影响您的财富观念。";
-  display: block;
+/* tagline 样式 */
+.VPHero .tagline {
   margin-top: 1.2rem;
   margin-bottom: 0;
   color: rgba(238, 232, 222, 0.85);
@@ -126,7 +124,7 @@ html {
 
 /* 调整按钮位置 */
 .VPHero .actions {
-  margin-top: 2rem !important;  /* 减少按钮与上方内容的间距 */
+  margin-top: 2.5rem !important;  /* 与 tagline 保持适当间距 */
 }
 
 /* 标题层级样式 - 仅应用于文档内容 */
@@ -500,4 +498,10 @@ blockquote {
 ::-moz-selection {
   background-color: var(--utopia-accent-gold);
   color: var(--utopia-bg-pure);
+}
+
+/* 隐藏主题切换按钮 */
+.VPNavBarAppearance,
+.VPSwitchAppearance {
+  display: none !important;
 }

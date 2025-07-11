@@ -1,157 +1,151 @@
 export const en = {
-  title: 'UTOPIA Whitepaper',
-  description: 'Consensus Free Wealth Network: Self-Governing Evolution of Value Flow Ecosystem',
+  title: 'Utopia Whitepaper',
+  description: 'Consensus-Free Wealth Network: Self-Evolving Value Flow Ecosystem',
   
   themeConfig: {
     logo: '/logo/logo2.svg',
     nav: [
-      { text: 'Whitepaper', link: '/en/whitepaper/' },
-      { text: 'Economics', link: '/en/economics/' }
+      { text: 'Whitepaper', link: '/whitepaper/' },
+      { text: 'Economic Model', link: '/economics/' }
     ],
 
     sidebar: {
-      '/en/whitepaper/': [
+      '/whitepaper/': [
         {
           text: 'Preface',
-          link: '/en/whitepaper/'
+          link: '/whitepaper/'
         },
         {
-          text: 'Chapter 1: Philosophy of Financial Freedom',
-          collapsed: false,
-          items: [
-            { text: 'The Essence of Wealth', link: '/en/whitepaper/chapter1/section1' },
-            { text: 'Formation and Evolution of Consensus', link: '/en/whitepaper/chapter1/section2' },
-            { text: 'Defining the Boundaries of Freedom', link: '/en/whitepaper/chapter1/section3' }
-          ]
+          text: 'Chapter 1: Philosophical Thinking on Wealth Freedom',
+          link: '/whitepaper/chapter1/'
         },
         {
-          text: 'Chapter 2: Birth of Utopia',
-          collapsed: false,
-          items: [
-            { text: 'Vision and Mission', link: '/en/whitepaper/chapter2/section1' },
-            { text: 'Core Values', link: '/en/whitepaper/chapter2/section2' },
-            { text: 'System Architecture Overview', link: '/en/whitepaper/chapter2/section3' }
-          ]
+          text: 'Chapter 2: The Birth of Utopia',
+          link: '/whitepaper/chapter2/'
         },
         {
           text: 'Chapter 3: Resonance Pool System',
           collapsed: false,
           items: [
-            { text: 'Philosophical Foundation', link: '/en/whitepaper/chapter3/section1' },
-            { text: 'Four-Dimensional Structure', link: '/en/whitepaper/chapter3/section2' },
-            { text: 'Resonance Amplification', link: '/en/whitepaper/chapter3/section3' },
-            { text: 'Resonance Process', link: '/en/whitepaper/chapter3/section4' }
+            { text: 'Chapter Overview', link: '/whitepaper/chapter3/' },
+            { text: '3.1 Philosophical Foundation of Resonance Pool', link: '/whitepaper/chapter3/section1' },
+            { text: '3.2 Four-Dimensional Resonance Structure', link: '/whitepaper/chapter3/section2' },
+            { text: '3.3 Resonance Amplification Principle', link: '/whitepaper/chapter3/section3' },
+            { text: '3.4 Participation Process', link: '/whitepaper/chapter3/section4' }
           ]
         },
         {
-          text: 'Chapter 4: Zone Consensus Network',
+          text: 'Chapter 4: Regional Consensus Network',
           collapsed: false,
           items: [
-            { text: 'Astral Structure', link: '/en/whitepaper/chapter4/section1' },
-            { text: 'Dimensional Consensus', link: '/en/whitepaper/chapter4/section2' },
-            { text: 'Value Consensus Algorithm', link: '/en/whitepaper/chapter4/section3' },
-            { text: 'Consensus Star Map', link: '/en/whitepaper/chapter4/section4' }
+            { text: 'Chapter Overview', link: '/whitepaper/chapter4/' },
+            { text: '4.1 Star Chart Structure and Dimensional Consensus', link: '/whitepaper/chapter4/section1' },
+            { text: '4.2 Value Consensus Algorithm and Star Map', link: '/whitepaper/chapter4/section2' },
+            { text: '4.3 Network Philosophy and Technical Practice', link: '/whitepaper/chapter4/section3' }
           ]
         },
         {
           text: 'Chapter 5: Prosperity Node System',
           collapsed: false,
           items: [
-            { text: 'Essence of Prosperity Nodes', link: '/en/whitepaper/chapter5/section1' },
-            { text: 'Proof of Value Mechanism', link: '/en/whitepaper/chapter5/section2' },
-            { text: 'Galactic Sharing Mechanism', link: '/en/whitepaper/chapter5/section3' },
-            { text: 'Prosperity Engine Functions', link: '/en/whitepaper/chapter5/section4' }
+            { text: 'Chapter Overview', link: '/whitepaper/chapter5/' },
+            { text: '5.1 Nature and Selection of Prosperity Nodes', link: '/whitepaper/chapter5/section1' },
+            { text: '5.2 Galactic Sharing and Value Distribution', link: '/whitepaper/chapter5/section2' },
+            { text: '5.3 Prosperity Engine and Dynamic Balance', link: '/whitepaper/chapter5/section3' }
           ]
         },
         {
           text: 'Chapter 6: Phoenix Restart Mechanism',
           collapsed: false,
           items: [
-            { text: 'Philosophy of Eternal Cycles', link: '/en/whitepaper/chapter6/section1' },
-            { text: 'Phoenix Rebirth Process', link: '/en/whitepaper/chapter6/section2' },
-            { text: 'Economic Principles Analysis', link: '/en/whitepaper/chapter6/section3' },
-            { text: 'Continuous Prosperity Rewards', link: '/en/whitepaper/chapter6/section4' }
+            { text: 'Chapter Overview', link: '/whitepaper/chapter6/' },
+            { text: '6.1 Philosophy and Trigger Mechanism of Phoenix Restart', link: '/whitepaper/chapter6/section1' },
+            { text: '6.2 Phoenix Rebirth Process Design', link: '/whitepaper/chapter6/section2' },
+            { text: '6.3 Economic Principles Analysis', link: '/whitepaper/chapter6/section3' },
+            { text: '6.4 Continuous Prosperity Reward Mechanism', link: '/whitepaper/chapter6/section4' },
+            { text: '6.5 Game Theory Analysis and Ultimate Meaning', link: '/whitepaper/chapter6/section5' }
           ]
         },
         {
-          text: 'Chapter 7: Smart Contract Architecture',
+          text: 'Chapter 7: Information-Driven Smart Contracts',
           collapsed: false,
           items: [
-            { text: 'Never Upgrade Philosophy', link: '/en/whitepaper/chapter7/section1' },
-            { text: 'Pre-calculation Engine', link: '/en/whitepaper/chapter7/section2' },
-            { text: 'Decentralization Guarantee', link: '/en/whitepaper/chapter7/section3' },
-            { text: 'On-chain Transparency', link: '/en/whitepaper/chapter7/section4' }
+            { text: 'Chapter Overview', link: '/whitepaper/chapter7/' },
+            { text: '7.1 Architecture Design and Concept', link: '/whitepaper/chapter7/section1' },
+            { text: '7.2 Pre-computation Engine and Security Mechanisms', link: '/whitepaper/chapter7/section2' },
+            { text: '7.3 User Interaction and Decentralization', link: '/whitepaper/chapter7/section3' },
+            { text: '7.4 Transparency and Technical Summary', link: '/whitepaper/chapter7/section4' }
           ]
         },
         {
-          text: 'Chapter 8: Economic Model',
+          text: 'Chapter 8: Mathematical Modeling',
           collapsed: false,
           items: [
-            { text: 'Dynamic Balance Algorithm', link: '/en/whitepaper/chapter8/section1' },
-            { text: 'Phoenix Restart Algorithm', link: '/en/whitepaper/chapter8/section2' },
-            { text: 'Stress Test Analysis', link: '/en/whitepaper/chapter8/section3' },
-            { text: 'Monte Carlo Simulation', link: '/en/whitepaper/chapter8/section4' }
+            { text: 'Chapter Overview', link: '/whitepaper/chapter8/' },
+            { text: '8.1 Core Variables and Stability Model', link: '/whitepaper/chapter8/section1' },
+            { text: '8.2 Network Effect and Dynamic Balance', link: '/whitepaper/chapter8/section2' },
+            { text: '8.3 Phoenix Algorithm and Stress Testing', link: '/whitepaper/chapter8/section3' },
+            { text: '8.4 Economic Theory and Conclusion', link: '/whitepaper/chapter8/section4' }
           ]
         },
         {
-          text: 'Chapter 9: Clarifying Misconceptions',
+          text: 'Chapter 9: Clarification of Common Misconceptions',
           collapsed: false,
           items: [
-            { text: 'System Nature Misconceptions', link: '/en/whitepaper/chapter9/section1' },
-            { text: 'Complexity Misconceptions', link: '/en/whitepaper/chapter9/section2' },
-            { text: 'Technical Security Misconceptions', link: '/en/whitepaper/chapter9/section3' },
-            { text: 'Sustainability Misconceptions', link: '/en/whitepaper/chapter9/section4' }
+            { text: 'Chapter Overview', link: '/whitepaper/chapter9/' },
+            { text: '9.1 Misconception 1: This is a Ponzi scheme or money pool', link: '/whitepaper/chapter9/section1' },
+            { text: '9.2 Misconception 2: High returns are unsustainable', link: '/whitepaper/chapter9/section2' },
+            { text: '9.3 Misconception 3: Lack of real value support', link: '/whitepaper/chapter9/section3' },
+            { text: '9.4 Misconception 4: Technical complexity for deception', link: '/whitepaper/chapter9/section4' },
+            { text: '9.5 Misconception 5: Risks too high and uncontrollable', link: '/whitepaper/chapter9/section5' },
+            { text: '9.6 Misconception 6: Just a hot potato game', link: '/whitepaper/chapter9/section6' },
+            { text: '9.7 Misconception 7: System might be manipulated', link: '/whitepaper/chapter9/section7' },
+            { text: '9.8 Misconception 8: Economic model is unsustainable', link: '/whitepaper/chapter9/section8' },
+            { text: '9.9 Misconception 9: Team might run away', link: '/whitepaper/chapter9/section9' },
+            { text: '9.10 Misconception 10: Only early participants benefit', link: '/whitepaper/chapter9/section10' },
+            { text: '9.11 Conclusion: Rational Cognition and Wise Choice', link: '/whitepaper/chapter9/section11' },
+            { text: '9.12 Appendix: Technical Verification Guide', link: '/whitepaper/chapter9/section12' },
+            { text: '9.13 Community Verification Tools', link: '/whitepaper/chapter9/section13' }
           ]
         },
         {
-          text: 'Chapter 10: Conclusion',
-          collapsed: false,
-          items: [
-            { text: 'Seeds of Thought', link: '/en/whitepaper/chapter10/section1' },
-            { text: 'Our Shared Future', link: '/en/whitepaper/chapter10/section2' },
-            { text: 'Eternal Value', link: '/en/whitepaper/chapter10/section3' }
-          ]
+          text: 'Chapter 10: Conclusion - Seeds of Thought',
+          link: '/whitepaper/chapter10/'
         },
         {
-          text: 'Appendix',
+          text: 'Chapter 11: Appendix',
           collapsed: false,
           items: [
-            { text: 'Glossary', link: '/en/whitepaper/appendix/glossary' },
-            { text: 'System Parameters', link: '/en/whitepaper/appendix/parameters' },
-            { text: 'Verification Guide', link: '/en/whitepaper/appendix/verification' },
-            { text: 'Disclaimer', link: '/en/whitepaper/appendix/disclaimer' }
+            { text: 'Chapter Overview', link: '/whitepaper/appendix/' },
+            { text: '11.1 Core Concepts Glossary', link: '/whitepaper/appendix/section1' },
+            { text: '11.2 System Parameters and Reference Materials', link: '/whitepaper/appendix/section2' },
+            { text: '11.3 Terminology Comparison and Acknowledgments', link: '/whitepaper/appendix/section3' },
+            { text: '11.4 Disclaimer and Participation', link: '/whitepaper/appendix/section4' }
           ]
         }
       ],
-      '/en/economics/': [
+      '/economics/': [
         {
           text: 'Economic Model',
           items: [
-            { text: 'Overview', link: '/en/economics/' },
-            { text: 'Network Value Theory', link: '/en/economics/network-value' },
-            { text: 'Revenue Model', link: '/en/economics/revenue-model' },
-            { text: 'Risk Management', link: '/en/economics/risk-management' },
-            { text: 'Sustainability Analysis', link: '/en/economics/sustainability' }
-          ]
-        }
-      ],
-      '/en/technology/': [
-        {
-          text: 'Technical Architecture',
-          items: [
-            { text: 'Overview', link: '/en/technology/' },
-            { text: 'Smart Contracts', link: '/en/technology/smart-contract' },
-            { text: 'Security Mechanisms', link: '/en/technology/security' },
-            { text: 'API Documentation', link: '/en/technology/api' }
+            { text: 'Overview', link: '/economics/' },
+            { text: 'Network Value Theory', link: '/economics/network-value' },
+            { text: 'Revenue Model', link: '/economics/revenue-model' },
+            { text: 'Risk Management', link: '/economics/risk-management' },
+            { text: 'Sustainability Analysis', link: '/economics/sustainability' }
           ]
         }
       ]
     },
 
-    // English interface text
-    editLink: {
-      pattern: 'https://github.com/utopia-project/whitepaper/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
-    }
+    // English interface texts
+    outlineTitle: 'Contents',
+    docFooter: {
+      prev: 'Previous page',
+      next: 'Next page'
+    },
+    darkModeSwitchLabel: 'Appearance',
+    sidebarMenuLabel: 'Menu',
+    returnToTopLabel: 'Return to top'
   }
 }
