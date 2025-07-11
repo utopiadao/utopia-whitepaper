@@ -66,7 +66,9 @@ const locales = computed(() => {
     const localeLink = locale.link || (key === 'root' ? '/' : `/${key}/`)
     
     // 从当前路径获取相对路径（不包含语言前缀）
-    let relativePath = page.value.relativePath.replace(/index\.md$/, '')
+    let relativePath = page.value.relativePath
+      .replace(/index\.md$/, '')  // 移除 index.md
+      .replace(/\.md$/, '')        // 移除所有 .md 后缀
     
     // 如果是语言目录下的文件，去掉语言前缀
     const currentLocalePath = localeIndex.value === 'root' ? '' : localeIndex.value + '/'
